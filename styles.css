@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #222222;
+    padding: 20px;
+    text-align: left;
+    color: #1ABC9C;
+}
+
+.profile-pic {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Links */
+a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #1ABC9C;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+header a {
+    margin-left: 10px;
+}
+
+/* Interactive Effect */
+header:hover {
+    background-color: #2C3E50;
+    cursor: pointer;
+}
+#navbar {
+    display: none;
+    background-color: #333;
+}
+
+#navbar li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+#menu-toggle {
+    background-color: #2C3E50; /* Deep blue-gray for a professional feel */
+    color: #ECF0F1; /* Light gray text for a soft contrast */
+    padding: 10px 20px;
+    border: 1px solid #34495E;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#menu-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+@media (max-width: 768px) {
+    #navbar {
+        display: block;
+    }
+}
